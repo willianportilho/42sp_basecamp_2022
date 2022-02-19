@@ -6,7 +6,13 @@
 /*   By: wportilh <wportilh@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/18 03:32:25 by wportilh          #+#    #+#             */
-/*   Updated: 2022/02/18 03:32:28 by wportilh         ###   ########.fr       */
+/*   Updated: 2022/02/19 05:24:12 by wportilh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+void	ft_putnbr(int nb);
+
+int	main(void)
+{
+	ft_putnbr(2147483647);
+}

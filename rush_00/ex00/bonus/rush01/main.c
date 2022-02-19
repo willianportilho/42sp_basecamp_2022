@@ -3,16 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wportilh <wportilh@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: mcarniel <mcarniel@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/02/18 03:07:57 by wportilh          #+#    #+#             */
-/*   Updated: 2022/02/19 05:21:08 by wportilh         ###   ########.fr       */
+/*   Created: 2022/02/05 13:00:40 by mcarniel          #+#    #+#             */
+/*   Updated: 2022/02/06 20:59:45 by mcarniel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_putstr(char *str);
+void	rush(int x, int y);
 
 int	main(void)
 {
-	ft_putstr("42 saopaulo\n");
+	rush(5, 3);
+	return (0);
 }

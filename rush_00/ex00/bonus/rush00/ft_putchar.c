@@ -1,18 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   ft_putchar.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wportilh <wportilh@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: mcarniel <mcarniel@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/02/18 03:07:57 by wportilh          #+#    #+#             */
-/*   Updated: 2022/02/19 05:21:08 by wportilh         ###   ########.fr       */
+/*   Created: 2022/02/06 20:55:34 by mcarniel          #+#    #+#             */
+/*   Updated: 2022/02/06 21:48:16 by mcarniel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_putstr(char *str);
+#include <unistd.h>
 
-int	main(void)
+void	ft_putchar(char c)
 {
-	ft_putstr("42 saopaulo\n");
+	write (1, &c, 1);
 }
